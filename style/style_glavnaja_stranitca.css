@@ -7,16 +7,18 @@ body{
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
+     margin: 50px 0px;
 }
 
 
 
-.top-position {
+.fix-top {
     position: fixed;
     left: 0;
     top: 0;
     right: 0;
     z-index: 1030;
+    background-color: white;
 }
 
  
@@ -24,7 +26,7 @@ body{
 
 .title-text {
     text-align: center;
-    margin: 100px auto;
+    margin: 170px auto;
     padding: 20px;
     max-width: 600px;
     border: solid 3px black;
