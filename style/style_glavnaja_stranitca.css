@@ -1,0 +1,45 @@
+body{
+     background-image: url(../imges/snowy.jpg);
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-attachment: fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+
+
+.top-position {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1030;
+}
+
+ 
+
+
+.title-text {
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    max-width: 600px;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+
+.title-text h1 {
+    font-weight: 900;
+    color: 6e7e8f;
+}
+
+div .link-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
