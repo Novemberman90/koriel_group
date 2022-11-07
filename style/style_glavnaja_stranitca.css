@@ -26,7 +26,7 @@ body{
 
 .title-text {
     text-align: center;
-    margin: 170px auto;
+    margin: 250px auto;
     padding: 20px;
     max-width: 600px;
     border: solid 3px black;
@@ -45,3 +45,25 @@ div .link-buttons {
     margin-bottom: 20px
 }
 
+
+main {
+    margin-top: 180px;
+}
+
+.about-title-text h1 {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    font-weight: 700;
+  border-bottom: 3px solid black;
+  max-width: 30%;
+    
+}
+
+.pervagi,
+.yak-mu-pratsyem ul {
+    list-style: none;
+}
+
+
+ 
