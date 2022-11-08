@@ -1,0 +1,33 @@
+body{
+    background-image: url(../imges/snowy.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 50px 0px;
+}
+
+
+
+.fix-top {
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   z-index: 1030;
+   background-color: white;
+}
+
+div .anketa {
+    width: 250px;
+    height: auto;
+}
+
+div .calculator {
+    width: 250px;
+    height: auto;
+
+}
