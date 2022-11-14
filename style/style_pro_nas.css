@@ -1,4 +1,6 @@
-
+body{
+    background-color: #f7f7f7;
+}
 
 .fix-top {
    position: fixed;
@@ -8,21 +10,63 @@
    z-index: 1030;
    background-color: white;
 }
+main {
+    margin-top: 95px;
+}
+
+main .brend{
+    background-image: url(../imges/snowy.jpg);
+    background-repeat: no-repeat;
+   background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 80px;
+    margin: 0px auto;
+}
+
+.brend h1,
+.brend h2 {
+    text-align: center;
+}
+
+.occupation ul {
+    list-style: none;
+    line-height: 30px;
+
+}
+.occupation span {
+    margin-right: 15px;
+}
+div .anketa-block,
+div .calculator-block,
+.invoice-block{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
 
 div .anketa {
     width: 250px;
     height: auto;
+    margin: 10px;
+    float: left;
 }
 
 div .calculator {
     width: 250px;
     height: auto;
-
+    margin: 10px;
+    float: right;
 }
 
 div .invoice {
-    width: 250px;
+    width: 180px;
     height: auto;
+    margin: 20px;
+    float: left;
 }
 
 div .clients-item {
@@ -52,4 +96,10 @@ div .silpo,
     max-width: 100%;
     height: auto;
     vertical-align: middle
+}
+
+
+div .logo-footer {
+    width: 200px;
+    height: auto;
 }

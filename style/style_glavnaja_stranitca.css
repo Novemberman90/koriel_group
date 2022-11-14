@@ -1,17 +1,6 @@
 body{
-     background-image: url(../imges/snowy.jpg);
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-attachment: fixed;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-     margin: 50px 0px;
+    background-color: #f7f7f7;
 }
-
-
-
 .fix-top {
     position: fixed;
     left: 0;
@@ -22,14 +11,25 @@ body{
 }
 
  
+ .title-background-img {
+    background-image: url(../imges/snowy.jpg);
+    background-repeat: no-repeat;
+   background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 60px;
+    margin: 0px auto;
+   
+}
 
-
-.title-text {
+div .title-text {
     text-align: center;
-    margin: 250px auto;
+    margin: 150px auto;
     padding: 20px;
     max-width: 600px;
-    border: solid 3px black;
+    border: solid 3px  #6e7e8f;
     border-radius: 10px;
 }
 
@@ -47,7 +47,7 @@ div .link-buttons {
 
 
 main {
-    margin-top: 180px;
+    margin-top: 50px;
 }
 
 .about-title-text h1 {

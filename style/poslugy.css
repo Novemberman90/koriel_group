@@ -1,0 +1,16 @@
+
+.fix-top {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1030;
+    background-color: white;
+ }
+
+
+
+
+main {
+    margin-top: 150px;
+}
