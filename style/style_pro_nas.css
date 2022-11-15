@@ -49,7 +49,7 @@ div .calculator-block,
 
 
 div .anketa {
-    width: 250px;
+    width: 200px;
     height: auto;
     margin: 10px;
     float: left;
@@ -76,6 +76,34 @@ div .clients-item {
     text-align: center;
 }
 
+    .sc-title {
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 50px;
+    line-height: 120%;
+    padding-bottom: 14px;
+}
+
+    .sc-title::after {
+    background-color: #999;
+    width: 40px;
+    content: '';
+    display: inline-block;
+    right: auto;
+    left: 0px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+}
+
+    .sc-title.text-center:after {
+    margin: 0 auto;
+    right: 0;
+}
+
 div .silpo,
 .fozzy-group,
 .yahotinske,
@@ -98,8 +126,48 @@ div .silpo,
     vertical-align: middle
 }
 
+footer {
+    background-color: #b7cef7;
+}
 
 div .logo-footer {
     width: 200px;
     height: auto;
 }
+
+div .kontaktu {
+
+}
+
+.kontaktu ul {
+    list-style: none;
+}
+
+div .kontaktu-title {
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 50px;
+    line-height: 120%;
+    padding-bottom: 14px;
+}
+
+div .kontaktu-title::after {
+    background-color: #999;
+    width: 40px;
+    content: '';
+    display: inline-block;
+    right: auto;
+    left: 0px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+}
+
+.tel,
+.email {
+  text-decoration: none;
+  }
+
