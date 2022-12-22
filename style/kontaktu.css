@@ -12,6 +12,13 @@ body{
 }
 
 
+.site-content {
+  margin-top: 100px;
+}
+
+
+
+
 footer {
     background-color: #b7cef7;
     padding: 10px;
