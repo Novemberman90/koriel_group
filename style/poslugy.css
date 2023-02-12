@@ -11,6 +11,18 @@ body{
     background-color: white;
  }
 
+ .nav-item a {
+  font-size: 18px;
+  font-weight: 400;
+}
+ .nav-item a:hover {
+  border-bottom: solid 2px #6495ed;
+}
+
+.active {
+    
+    border-bottom: solid 2px #6495ed;
+}
 
 
 

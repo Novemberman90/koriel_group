@@ -2,6 +2,8 @@ body{
     background-color: #f7f7f7;
 }
 
+
+
 .fix-top {
    position: fixed;
    left: 0;
@@ -25,6 +27,19 @@ main .brend{
     padding: 80px;
     margin: 0px auto;
 }
+
+.nav-item a {
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-item a:hover {
+    border-bottom: solid 2px #6495ed;
+  }
+  
+  .active {
+      
+      border-bottom: solid 2px #6495ed;
+  }
 
 .brend h1,
 .brend h2 {
