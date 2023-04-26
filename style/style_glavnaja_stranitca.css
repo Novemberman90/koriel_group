@@ -264,6 +264,65 @@ div .kontaktu-title::after {
     content: "->";
     color: transparent;
   }
+
+  /*936px*/
+  @media (max-width: 936px) {
+
+    .title-background-img {
+        padding: 0px 10px 0px 10px;
+    }
+
+    div .title-text {
+        box-shadow: snow 0px 0px 20px 1px;
+        border: 0;
+    }
+
+    .link-buttons {
+        justify-content: space-between;
+    }
+
+    .title-main-text{
+        font-size: 28px;
+    }
+
+    .link-buttons a {
+        width: 150px;
+    }
+
+    .link-buttons a span {
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.5px
+    }
+
+    .about-title-h1 {
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    .about-title-h2 {
+        font-size: 22px;
+        text-align: justify;
+        font-weight: 400;
+    }
+    .text-title-h3{
+        font-size: 26px;
+    }
+
+    .title-list{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .footer {
+        padding: 20px;
+    } 
+
+    .kontaktu-li {
+        margin-bottom: 10px;
+    }
+  }
+
  
 /*812px*/
 
