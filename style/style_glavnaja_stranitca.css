@@ -20,6 +20,7 @@ ul {
 .nav-link:hover {
     transition-duration: 0.2ms;
   border-bottom: solid 2px #6495ed;
+  width: fit-content;
 }
 
 .active {  
