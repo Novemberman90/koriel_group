@@ -4,7 +4,10 @@ body{
     margin: 0;
     padding: 0;    
 }
-
+ul {
+    padding: 0;
+    margin: 0;
+}
 .header {
     height: 95px;
 }
@@ -115,15 +118,16 @@ body{
     width: 100%;
 }
   
+.about-title-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-.about-title-text h1 {
-    text-align: center;
-    margin: 20px auto;
+.about-title-h1 {
     padding: 10px;
     font-weight: 700;
-  border-bottom: 3px solid black;
-  max-width: 30%;
-    
+    border-bottom: 3px solid black;
 }
 
 .pervagi ul,
@@ -258,10 +262,77 @@ div .kontaktu-title::after {
     color: transparent;
   }
  
+/*576px*/
+
+  @media (max-width: 576px) {
+    .title-background-img {
+        padding: 0px 10px 0px 10px;
+        width: 100%;
+    }
+    div .title-text {
+        width: 100%;
+        box-shadow: snow 0px 0px 20px 1px;
+        border: 0;
+    }
+
+    .link-buttons {
+        justify-content: space-around;
+    }
+    .title-main-text{
+        font-size: 28px;
+    }
+
+    .link-buttons a {
+        width: 112px;
+    }
+    .link-buttons a span {
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.5px
+    }
+
+    .about-company {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .about-title-text {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .about-title-h1 {
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    .about-title-h2 {
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .text-title-h3{
+        font-size: 26px;
+    }
+
+    .title-list {
+        padding: 0px 10px 0px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .yak-mu-pratsyem {
+        margin: 30px 0px 0px 0px;
+    }
+  }
+
+
+/*media 320px*/
+
 @media (max-width: 320px) {
     
     .title-background-img {
         padding: 0px 10px 0px 10px;
+        width: 100%;
     }
     div .title-text {
         width: 100%;
