@@ -1,7 +1,13 @@
 body{
     background-color: #f7f7f7;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
 }
 
+.header {
+    height: 95px;
+}
 .nav-item a {
     font-size: 18px;
     font-weight: 400;
@@ -24,6 +30,11 @@ body{
     background-color: white;
 }
 
+.main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
  
  .title-background-img {
     background-image: url(../imges/snowy.jpg);
@@ -33,26 +44,27 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 60px;
-    margin: 0px auto;
-   
+    padding: 0;
+    margin: 0;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 
-div .title-text {
+ .title-text {
     text-align: center;
-    margin: 150px auto;
     padding: 20px;
-    max-width: 600px;
-    border: solid 3px  #6e7e8f;
+    border: solid 1px  #6e7e8f;
+    border-radius: 5px;
     
 }
 
 .title-text h1 {
     font-weight: 900;
-    color: 6e7e8f;
 }
 
-div .link-buttons {
+ .link-buttons {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
@@ -60,51 +72,49 @@ div .link-buttons {
     
 }
  
-.link-buttons a{
+.link-buttons a {
     display: block;
     width: 200px;
     height: 40px;
     padding: 5px;
-    font-size: 18px;
     font-family: sans-serif;
     text-decoration: none;
     color: #333;
     border: 2px solid #333;
+    border-radius: 5px;
     letter-spacing: 2px;
     text-align: center;
     position: relative;
     transition: all 0.45s;
   }
 
-  .link-buttons a span{
+  .link-buttons a span {
     position: relative;
     z-index: 2;
     font-size: 18px;
     text-align: center;
   }
 
-  .link-buttons a:after{
+  .link-buttons a:after {
     position: absolute;
     content: "";
     top: 0;
     left: 0;
     width: 0;
     height: 100%;
-    background: #6e7e8f;
+    background: #2877ff;
     transition: all .50s;
   }
 
-  .link-buttons a:hover{
-    color: #fff;
+  .link-buttons a:hover {
+    color:#fff;
   }
+  
 
-  .link-buttons a:hover:after{
+  .link-buttons a:hover:after {
     width: 100%;
-  }
-
-main {
-    margin-top: 50px;
 }
+  
 
 .about-title-text h1 {
     text-align: center;
@@ -248,3 +258,30 @@ div .kontaktu-title::after {
     color: transparent;
   }
  
+@media (max-width: 320px) {
+    
+    .title-background-img {
+        padding: 0px 10px 0px 10px;
+    }
+    div .title-text {
+        width: 100%;
+        box-shadow: snow 0px 0px 20px 1px;
+        border: 0;
+    }
+
+    .link-buttons {
+        justify-content: space-between;
+    }
+    .title-main-text{
+        font-size: 28px;
+    }
+
+    .link-buttons a {
+        width: 112px;
+    }
+    .link-buttons a span {
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.5px
+    }
+}
