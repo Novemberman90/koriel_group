@@ -265,8 +265,9 @@ div .kontaktu-title::after {
     color: transparent;
   }
  
-/*730px*/
-  @media (max-width: 730px) {
+/*757px*/
+
+  @media (max-width: 757px) {
 
     .title-background-img {
         padding: 0px 10px 0px 10px;
@@ -312,6 +313,14 @@ div .kontaktu-title::after {
     .title-list{
         font-size: 18px;
         line-height: 1.5;
+    }
+
+    .footer {
+        padding: 20px;
+    } 
+
+    .kontaktu-li {
+        margin-bottom: 10px;
     }
   }
 
