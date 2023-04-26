@@ -267,7 +267,7 @@ div .kontaktu-title::after {
  
 /*757px*/
 
-  @media (max-width: 757px) {
+  @media (max-width: 768px) {
 
     .title-background-img {
         padding: 0px 10px 0px 10px;
