@@ -86,8 +86,8 @@ ul {
 .occupation span {
     margin-right: 15px;
 }
-div .anketa-block,
-div .calculator-block,
+.anketa-block,
+.calculator-block,
 .invoice-block{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -251,6 +251,12 @@ div .silpo,
     color: transparent;
   }
 
+  /*Menu poslug footer*/
+  
+  .footer-block-menu {
+    display: flex;
+    flex-direction: column;
+  }
   .wiget-text {
     font-weight: 500;
   }
@@ -328,6 +334,19 @@ div .silpo,
         height: auto;
         margin-bottom: 20px;
     }
+
+    .wiget-text {
+        display: flex;
+    justify-content: space-between;
+    }
+
+    .menu-title-h3 {
+        font-size: 22px
+    }
+    .wiget-text-p {
+        width: 75%;
+        font-size: 16px;
+    }
   }
 
   /*812px*/
@@ -344,5 +363,116 @@ div .silpo,
 
     .kontaktu-li {
         margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 812px) {
+
+    .title-background-img {
+        padding: 0px 10px 0px 10px;
+    }
+
+    div .title-text {
+        box-shadow: snow 0px 0px 20px 1px;
+        border: 0;
+    }
+
+    .link-buttons {
+        justify-content: space-between;
+    }
+
+    .title-main-text{
+        font-size: 28px;
+    }
+
+    .link-buttons a {
+        width: 150px;
+    }
+
+    .link-buttons a span {
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.5px
+    }
+
+    .about-title-h1 {
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    .about-title-h2 {
+        font-size: 22px;
+        text-align: justify;
+        font-weight: 400;
+    }
+    .text-title-h3{
+        font-size: 26px;
+    }
+
+    .title-list{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .footer {
+        padding: 20px;
+    } 
+
+    .kontaktu-li {
+        margin-bottom: 10px;
+    }
+  }
+
+/*576px*/
+
+  @media (max-width: 576px) {
+    .title-background-img {
+        padding: 0px 10px 0px 10px;
+        width: 100%;
+    }
+     .title-text {
+        width: 100%;
+    }
+
+    .text-title-h3{
+        font-size: 26px;
+        text-align: center;
+    }
+    .menu-title-h3 {
+        font-size: 18px;
+    }
+
+    .title-list {
+        padding: 0px 10px 0px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .yak-mu-pratsyem {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .occupation {
+        margin: 30px 0px 30px 0px;
+    }
+
+    .anketa-block {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .footer {
+        padding: 20px;
+    } 
+
+    .wiget-text-p{
+        font-size: 14px;
+
+    }
+    .kontaktu-li {
+        margin-bottom: 10px;
+    }
+
+    .menu-item-a {
+        font-size: 14px;
     }
   }
