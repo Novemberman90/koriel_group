@@ -1,8 +1,38 @@
 body{
     background-color: #f7f7f7;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 96px;
 }
 
 
+.nav-link {
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-item a {
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-item a:hover {
+    transition-duration: 0.2ms;
+    border-bottom: solid 2px #6495ed;
+    width: fit-content;
+  }
+  
+  .active {
+    border-bottom: solid 2px #6495ed;
+    width: fit-content;
+  }
 
 .fix-top {
    position: fixed;
@@ -12,11 +42,14 @@ body{
    z-index: 1030;
    background-color: white;
 }
-main {
-    margin-top: 95px;
+
+.main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
-main .brend{
+ .brend{
     background-image: url(../imges/snowy.jpg);
     background-repeat: no-repeat;
    background-position: center center;
@@ -24,26 +57,25 @@ main .brend{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 80px;
-    margin: 0px auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 
-.nav-item a {
-    font-size: 18px;
-    font-weight: 400;
-}
-.nav-item a:hover {
-    border-bottom: solid 2px #6495ed;
-  }
-  
-  .active {
-      
-      border-bottom: solid 2px #6495ed;
-  }
-
-.brend h1,
-.brend h2 {
+.title-text {
     text-align: center;
+    padding: 100px;
+}
+
+.brend_h1,
+.brend_h2 {
+    text-align: center;
+}
+
+.occupation {
+    margin: 20px 0px 0px 0px;
 }
 
 .occupation ul {
@@ -63,28 +95,28 @@ div .calculator-block,
 
 
 
-div .anketa {
+.anketa {
     width: 200px;
     height: auto;
     margin: 10px;
     float: left;
 }
 
-div .calculator {
+.calculator {
     width: 250px;
     height: auto;
     margin: 10px;
     float: right;
 }
 
-div .invoice {
+.invoice {
     width: 180px;
     height: auto;
     margin: 20px;
     float: left;
 }
 
-div .clients-item {
+.clients-item {
     width: 150px;
     height: auto;
     margin-bottom: 20px;
@@ -141,23 +173,26 @@ div .silpo,
     vertical-align: middle
 }
 
-footer {
+
+/*footer*/
+
+.footer {
     background-color: #b7cef7;
     padding: 10px;
 }
 
-footer ul {
+.footer ul {
     list-style: none;
     margin: 0;
 }
 
-div .logo-footer {
+.logo-footer {
     width: 200px;
     height: auto;
     margin-bottom: 30px;
 }
 
-div .kontaktu-block {
+.kontaktu-block {
     margin-top: 50px;
 }
 
@@ -165,7 +200,7 @@ div .kontaktu-block {
     list-style: none;
 }
 
-div .kontaktu-title {
+.kontaktu-title {
     text-decoration: none;
     color: black;
     font-size: 32px;
@@ -176,7 +211,7 @@ div .kontaktu-title {
     padding-bottom: 14px;
 }
 
-div .kontaktu-title::after {
+.kontaktu-title::after {
     background-color: #999;
     width: 40px;
     content: '';
@@ -187,12 +222,14 @@ div .kontaktu-title::after {
     position: absolute;
     bottom: 0;
 }
-
+.kontaktu-li {
+    margin-bottom: 10px;
+}
  .tel,
  .email {
-  text-decoration: none;
-  color: black;
-  transition: margin 0.2s ease-in-out;
+    text-decoration: none;
+    color: black;
+    transition: margin 0.2s ease-in-out;
   }
 
   .tel:hover,
@@ -214,7 +251,7 @@ div .kontaktu-title::after {
     color: transparent;
   }
 
-  div .wiget-text {
+  .wiget-text {
     font-weight: 500;
   }
 
@@ -223,7 +260,7 @@ div .kontaktu-title::after {
     
   }
 
-div .menu {
+ .menu {
     display: flex;
     flex-direction: column;
 }
@@ -249,4 +286,63 @@ div .menu {
     left: -1.2em;
     content: "->";
     color: transparent;
+  }
+
+  /*936px*/
+  @media (max-width: 936px) {
+
+    .title-background-img {
+        padding: 0px 10px 0px 10px;
+    }
+
+     .title-text {
+        box-shadow: snow 0px 0px 20px 1px;
+        border: 0;
+    }
+
+    .brend_h4 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .anketa,
+    .calculator,
+    .invoice {
+        width: 200px;
+        height: 200px;
+    }
+
+    .footer {
+        padding: 20px;
+    } 
+
+    .kontaktu-li {
+        margin-bottom: 10px;
+    }
+
+    /*Menu poslug footer*/
+    .logo-footer {
+        width: 150px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+  }
+
+  /*812px*/
+
+  @media (max-width: 812px) {
+
+    .title-background-img {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .footer {
+        padding: 20px;
+    } 
+
+    .kontaktu-li {
+        margin-bottom: 10px;
+    }
   }
