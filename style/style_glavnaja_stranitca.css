@@ -477,6 +477,11 @@ div .kontaktu-title::after {
         font-size: 28px;
     }
 
+    .clients-item{
+        width: 120px;
+        height: auto;
+    }
+    
     .link-buttons a {
         width: 112px;
     }
