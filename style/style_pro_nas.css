@@ -357,61 +357,14 @@ div .silpo,
         padding: 0px 10px 0px 10px;
     }
 
-    .footer {
-        padding: 20px;
-    } 
-
-    .kontaktu-li {
-        margin-bottom: 10px;
-    }
-  }
-
-  @media (max-width: 812px) {
-
-    .title-background-img {
-        padding: 0px 10px 0px 10px;
+    .brend_h4 {
+        font-size: 20px;
     }
 
-    div .title-text {
-        box-shadow: snow 0px 0px 20px 1px;
-        border: 0;
-    }
-
-    .link-buttons {
-        justify-content: space-between;
-    }
-
-    .title-main-text{
-        font-size: 28px;
-    }
-
-    .link-buttons a {
-        width: 150px;
-    }
-
-    .link-buttons a span {
-        font-size: 13px;
-        font-weight: 600;
-        letter-spacing: 0.5px
-    }
-
-    .about-title-h1 {
-        font-weight: 600;
-        font-size: 28px;
-    }
-
-    .about-title-h2 {
-        font-size: 22px;
-        text-align: justify;
-        font-weight: 400;
-    }
     .text-title-h3{
         font-size: 26px;
-    }
-
-    .title-list{
-        font-size: 18px;
-        line-height: 1.5;
+        margin: 30px 0px 0px 0px;
+        text-align: center;
     }
 
     .footer {
@@ -422,6 +375,8 @@ div .silpo,
         margin-bottom: 10px;
     }
   }
+
+ 
 
 /*576px*/
 
@@ -434,10 +389,14 @@ div .silpo,
         width: 100%;
     }
 
-    .text-title-h3{
-        font-size: 26px;
-        text-align: center;
+    .brend_h4 {
+        font-size: 16px;
     }
+
+    .brend_h1 {
+        font-size: 28px;
+    }
+
     .menu-title-h3 {
         font-size: 18px;
     }
@@ -452,20 +411,57 @@ div .silpo,
         margin: 30px 0px 0px 0px;
     }
 
-    .occupation {
-        margin: 30px 0px 30px 0px;
+    .occupation,
+    .anketa-block,
+    .calculator-block,
+    .invoice-block,
+    .h6 {
+        margin: 30px 0px 0px 0px;
+        padding: 0px 10px 0px 10px;
     }
 
-    .anketa-block {
-        margin: 20px 0px 0px 0px;
+    .occupation-li {
+        font-size: 14px;
+        line-height: 2em;
     }
+
+    .text-title-h3{
+        font-size: 26px;
+        margin: 30px 0px 30px 0px;
+        text-align: center;
+    }
+
+    .anketa-text1,
+    .anketa-text2 {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .calculator-txt1,
+    .calculator-txt2 {
+        font-size: 14px;
+    }
+
+    .invoice-txt1,
+    .invoice-txt2 {
+        font-size: 14px;
+        text-align: justify;
+    }
+
 
     .footer {
         padding: 20px;
     } 
 
+    .logo-footer {
+        width: 130px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
     .wiget-text-p{
         font-size: 14px;
+        max-width: 70%;
 
     }
     .kontaktu-li {
