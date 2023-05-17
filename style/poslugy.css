@@ -1,7 +1,20 @@
 
 body{
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;    
 }
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  height: 96px;
+}
+
 .fix-top {
     position: fixed;
     left: 0;
@@ -11,41 +24,70 @@ body{
     background-color: white;
  }
 
+ .nav-link {
+  font-size: 18px;
+  font-weight: 400;
+}
+
  .nav-item a {
   font-size: 18px;
   font-weight: 400;
 }
  .nav-item a:hover {
-  border-bottom: solid 2px #6495ed;
+    transition-duration: 0.2ms;
+    border-bottom: solid 2px #6495ed;
+    width: fit-content;
 }
 
 .active {
-    
-    border-bottom: solid 2px #6495ed;
+  border-bottom: solid 2px #6495ed;
+  width: fit-content;
 }
 
 
 
-main {
-    margin-top: 97px;
+.main {
+  margin: 0px 0px 30px 0px;
+  padding: 0;
+  width: 100%;
 }
 
-main .posluhi-title-text {background-image: url(../imges/snowy.jpg);
+.posluhi-title-text {background-image: url(../imges/snowy.jpg);
     background-repeat: no-repeat;
    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 80px;
-    margin: 0px auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .posluhi-title-text h1 {
     text-align: center;
+    padding: 150px 0px 150px 0px;
 }
 
+.poslugi-blok {
+  margin: 30px 0px 0px 0px;
+}
 
+.poslugi-h3 {
+  font-size: 20px;
+}
+
+.poslugi-txt {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.poslugi-li,
+.montaj-li {
+  font-size: 14px;
+}
 /* Footer */
 
 footer {
@@ -58,13 +100,13 @@ footer ul {
     margin: 0;
 }
 
-div .logo-footer {
+ .logo-footer {
     width: 200px;
     height: auto;
     margin-bottom: 30px;
 }
 
-div .kontaktu-block {
+ .kontaktu-block {
     margin-top: 50px;
 }
 
@@ -72,7 +114,7 @@ div .kontaktu-block {
     list-style: none;
 }
 
-div .kontaktu-title {
+ .kontaktu-title {
     text-decoration: none;
     color: black;
     font-size: 32px;
@@ -83,7 +125,7 @@ div .kontaktu-title {
     padding-bottom: 14px;
 }
 
-div .kontaktu-title::after {
+ .kontaktu-title::after {
     background-color: #999;
     width: 40px;
     content: '';
@@ -121,16 +163,16 @@ div .kontaktu-title::after {
     color: transparent;
   }
 
-  div .wiget-text {
+  .wiget-text {
     font-weight: 500;
   }
 
-  ul .menu li {
+   .menu li {
     padding: 8px 0;
     
   }
 
-div .menu {
+ .menu {
     display: flex;
     flex-direction: column;
 }
@@ -156,4 +198,156 @@ div .menu {
     left: -1.2em;
     content: "->";
     color: transparent;
+  }
+
+
+  /*936px*/
+  @media (max-width: 936px) {
+
+    .title-background-img {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .footer {
+        padding: 20px;
+    } 
+
+    .kontaktu-li {
+        margin-bottom: 10px;
+    }
+
+    /*Menu poslug footer*/
+    .logo-footer {
+        width: 150px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .wiget-text {
+        display: flex;
+    justify-content: space-between;
+    }
+
+    .menu-title-h3 {
+        font-size: 22px
+    }
+    .wiget-text-p {
+        width: 75%;
+        font-size: 16px;
+    }
+  }
+
+  /*812px*/
+
+  @media (max-width: 812px) {
+
+    .title-background-img {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .poslugi-h3 {
+      
+    font-size: 14px;
+    }
+
+    .footer {
+        padding: 20px;
+    } 
+
+    .wiget-text {
+        gap: 20px;
+    }
+
+    .wiget-text-p {
+        font-size: 14px;
+    }
+
+    .kontaktu-li {
+        margin-bottom: 10px;
+    }
+  }
+
+  /*576px*/
+
+  @media (max-width: 576px) {
+    .title-background-img {
+        padding: 0px 10px 0px 10px;
+        width: 100%;
+    }
+     
+    .col-poslugi,
+    .col-bild-machine,
+    .col-montaj,
+    .col-equip,
+    .col-servis,
+    .col-avtomatic {
+      display: flex;
+      justify-content: center;
+    }
+
+    .build-machine {
+      display: flex;
+      flex-wrap: wrap;
+      width: 70%;
+      margin: 20px 0px 20px 0px;
+    }
+
+    .montaj {
+      display: flex;
+      flex-wrap: wrap;
+      width: 70%;
+      margin: 20px 0px 0px 0px;
+    }
+    
+    .choice-equvipment {
+      width: 70%;
+      margin: 0px 0px 20px 0px;
+    }
+
+    .servis,
+    .avtomatic {
+      width: 70%;
+      margin: 20px 0px 20px 0px;
+    }
+
+    .footer {
+        padding: 20px;
+    } 
+
+    .logo-footer {
+        width: 130px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .wiget-text{
+        /*margin: 0px 0px 20px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;*/
+        display: none;
+    }
+
+    .wiget-text-p{
+        font-size: 14px;
+        max-width: 70%;
+
+    }
+    /*Kontaktu*/
+    .kontaktu-block {
+        margin: 0;
+    }
+
+    .kontaktu {
+        width: 100%;
+    }
+
+    .kontaktu-li {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .menu-item-a {
+        font-size: 14px;
+    }
   }
