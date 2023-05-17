@@ -497,3 +497,43 @@ ul .menu li {
   }
 }
 
+ /*media 320px*/
+
+ @media (max-width: 320px) {
+    
+  .clients-item{
+      width: 120px;
+      height: auto;
+  }
+
+  /*Kontaktu*/
+  .kontaktu-block {
+      margin: 0;
+  }
+
+  .kontaktu {
+      width: 100%;
+  }
+
+  /*Menu poslug footer*/
+ 
+  .wiget-text{
+     /* margin: 0px 0px 20px 0px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;*/
+      display: none;
+  }
+
+  .wiget-text-p{
+      margin: 0px auto;
+      text-align: justify;
+      font-size: 12px;
+      max-width: 100%;
+  }
+
+  .menu-title-h3,
+  .menu-title-h3 {
+      font-size: 16px;
+  }
+}
