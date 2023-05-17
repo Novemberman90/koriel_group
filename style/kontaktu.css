@@ -5,7 +5,37 @@
 }
 
 body{
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;   
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  height: 96px;
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-item a {
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-item a:hover {
+  transition-duration: 0.2ms;
+  border-bottom: solid 2px #6495ed;
+  width: fit-content;
+}
+
+.active {
+  border-bottom: solid 2px #6495ed;
+  width: fit-content;
 }
 
 .fix-top {
@@ -17,24 +47,16 @@ body{
    background-color: white; 
 }
 
-.nav-item a {
-  font-size: 18px;
-  font-weight: 400;
+/*main*/
+.main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
-.nav-item a:hover {
-  border-bottom: solid 2px #6495ed;
-}
-
-.active {
-    
-    border-bottom: solid 2px #6495ed;
-}
-
 
 .site-content {
   margin-top: 100px;
-  width: 1200px;
-  max-width: 100%;
+  max-width: 95%;
 }
 
 /*Left sidebar*/
@@ -174,7 +196,7 @@ textarea.form-control {
 
 /*Nashi Klienty block start*/
 
-div .clients-item {
+ .clients-item {
   width: 150px;
   height: auto;
   margin-bottom: 20px;
@@ -209,7 +231,7 @@ div .clients-item {
   right: 0;
 }
 
-div .silpo,
+.silpo,
 .fozzy-group,
 .yahotinske,
 .yatran,
@@ -233,112 +255,245 @@ div .silpo,
 
 /*Nashi Klienty block finish*/
 
-footer {
-    background-color: #b7cef7;
-    padding: 10px;
+/*footer*/
+
+.footer {
+  background-color: #b7cef7;
+  padding: 10px;
 }
 
-footer ul {
-    list-style: none;
-    margin: 0;
+.footer ul {
+  list-style: none;
+  margin: 0;
 }
 
-div .logo-footer {
-    width: 200px;
-    height: auto;
-    margin-bottom: 30px;
+.logo-footer {
+  width: 200px;
+  height: auto;
+  margin-bottom: 30px;
 }
 
-div .kontaktu-block {
-    margin-top: 50px;
+.kontaktu-block {
+  margin-top: 50px;
 }
 
 .kontaktu ul {
-    list-style: none;
+  list-style: none;
 }
 
-div .kontaktu-title {
-    text-decoration: none;
-    color: black;
-    font-size: 32px;
-    font-weight: 600;
-    position: relative;
-    margin-bottom: 30px;
-    line-height: 120%;
-    padding-bottom: 14px;
+.kontaktu-title {
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 30px;
+  line-height: 120%;
+  padding-bottom: 14px;
 }
 
-div .kontaktu-title::after {
-    background-color: #999;
-    width: 40px;
-    content: '';
-    display: inline-block;
-    right: auto;
-    left: 0px;
-    height: 2px;
-    position: absolute;
-    bottom: 0;
+.kontaktu-title::after {
+  background-color: #999;
+  width: 40px;
+  content: '';
+  display: inline-block;
+  right: auto;
+  left: 0px;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
 }
-
- .tel,
- .email {
+.kontaktu-li {
+  margin-bottom: 10px;
+}
+.tel,
+.email {
   text-decoration: none;
   color: black;
   transition: margin 0.2s ease-in-out;
-  }
-
-  .tel:hover,
-  .email:hover,
-  .tel:focus,
-  .email:focus { 
-    color: black;
-    text-shadow: 0 0 0px black;
-    margin-left: 0.8em;
-    outline: none;
-    position: relative;
-  }
-
-  .tel::before,
-  .email::before {
-    position: absolute;
-    left: -1.5em;
-    content: "->";
-    color: transparent;
-  }
-
-  div .wiget-text {
-    font-weight: 500;
-  }
-
-  ul .menu li {
-    padding: 8px 0;
-    
-  }
-
-div .menu {
-    display: flex;
-    flex-direction: column;
 }
-  .menu a {
-    text-decoration: none;
-    color: black;
-    width: fit-content;
-    padding: 5px 0;
-    transition: margin 0.2s ease-in-out;
-  }
+
+.tel:hover,
+.email:hover,
+.tel:focus,
+.email:focus { 
+  color: black;
+  text-shadow: 0 0 0px black;
+  margin-left: 0.8em;
+  outline: none;
+  position: relative;
+}
+
+.tel::before,
+.email::before {
+  position: absolute;
+  left: -1.5em;
+  content: "->";
+  color: transparent;
+}
+
+/*Menu poslug footer*/
+
+.footer-block-menu {
+  display: flex;
+  flex-direction: column;
+}
+.wiget-text {
+  font-weight: 500;
+}
+
+ul .menu li {
+  padding: 8px 0;
+  
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  width: fit-content;
+  padding: 5px 0;
+  transition: margin 0.2s ease-in-out;
+}
 
 
-  .menu a:hover,
-  .menu a:focus {
-    text-shadow: 0 0 0px black;
-    margin-left: 0.8em;
-    outline: none;
-    position: relative;
+.menu a:hover,
+.menu a:focus {
+  text-shadow: 0 0 0px black;
+  margin-left: 0.8em;
+  outline: none;
+  position: relative;
+}
+
+.menu a::before {
+  position: absolute;
+  left: -1.2em;
+  content: "->";
+  color: transparent;
+}
+
+ /*936px*/
+ @media (max-width: 936px) {
+  
+  .footer {
+      padding: 20px;
+  } 
+
+  .kontaktu-li {
+      margin-bottom: 10px;
   }
 
-  .menu a::before {
-    position: absolute;
-    left: -1.2em;
-    content: "->";
-    color: transparent;
+  /*Menu poslug footer*/
+  .logo-footer {
+      width: 150px;
+      height: auto;
+      margin-bottom: 20px;
   }
+
+  .wiget-text {
+      display: flex;
+  justify-content: space-between;
+  }
+
+  .menu-title-h3 {
+      font-size: 22px
+  }
+  .wiget-text-p {
+      width: 75%;
+      font-size: 16px;
+  }
+}
+
+/*812px*/
+
+@media (max-width: 812px) {
+
+  .footer {
+      padding: 20px;
+  } 
+
+  .wiget-text {
+      gap: 20px;
+  }
+
+  .wiget-text-p {
+      font-size: 14px;
+  }
+
+  .kontaktu-li {
+      margin-bottom: 10px;
+  }
+}
+
+
+/*576px*/
+
+@media (max-width: 576px) {
+  .text {
+    font-size: 18px;
+  }
+
+  .contact-info li span.lnr {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    background-color: #3f70ac;
+}
+
+.adress-poit,
+.phone-nom,
+.email-link {
+  font-size: 13px;
+}
+
+  .footer {
+      padding: 20px;
+  } 
+
+  .logo-footer {
+      width: 130px;
+      height: auto;
+      margin-bottom: 20px;
+  }
+
+  .wiget-text{
+      /*margin: 0px 0px 20px 0px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;*/
+      display: none;
+  }
+
+  .wiget-text-p{
+      font-size: 14px;
+      max-width: 70%;
+
+  }
+  /*Kontaktu*/
+  .kontaktu-block {
+      margin: 0;
+  }
+
+  .kontaktu {
+      width: 100%;
+  }
+
+  .kontaktu-li {
+      margin-bottom: 10px;
+      font-size: 15px;
+  }
+
+  .menu-item-a {
+      font-size: 14px;
+  }
+}
+
