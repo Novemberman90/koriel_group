@@ -351,3 +351,52 @@ footer ul {
         font-size: 14px;
     }
   }
+
+
+  /*media 320px*/
+
+@media (max-width: 320px) {
+    
+  .title-background-img {
+      padding: 0px 10px 0px 10px;
+      width: 100%;
+  }
+    .build-machine,
+    .montaj,
+    .choice-equvipment,
+    .servis,
+    .avtomatic {
+      width: 100%;
+    }
+
+  /*Kontaktu*/
+  .kontaktu-block {
+      margin: 0;
+  }
+
+  .kontaktu {
+      width: 100%;
+  }
+
+  /*Menu poslug footer*/
+ 
+  .wiget-text{
+     /* margin: 0px 0px 20px 0px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;*/
+      display: none;
+  }
+
+  .wiget-text-p{
+      margin: 0px auto;
+      text-align: justify;
+      font-size: 12px;
+      max-width: 100%;
+  }
+
+  .menu-title-h3,
+  .menu-title-h3 {
+      font-size: 16px;
+  }
+}
