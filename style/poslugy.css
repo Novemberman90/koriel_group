@@ -285,32 +285,33 @@ footer ul {
       justify-content: center;
     }
 
-    .project {
+    .project,
+    .build-machine,
+    .montaj,
+    .choice-equvipment,
+    .servis,
+    .avtomatic {
       width: 70%;
     }
 
     .build-machine {
       display: flex;
       flex-wrap: wrap;
-      width: 70%;
       margin: 20px 0px 20px 0px;
     }
 
     .montaj {
       display: flex;
       flex-wrap: wrap;
-      width: 70%;
       margin: 20px 0px 0px 0px;
     }
     
     .choice-equvipment {
-      width: 70%;
       margin: 0px 0px 20px 0px;
     }
 
     .servis,
     .avtomatic {
-      width: 70%;
       margin: 20px 0px 20px 0px;
     }
 
