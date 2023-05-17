@@ -285,6 +285,10 @@ footer ul {
       justify-content: center;
     }
 
+    .project {
+      width: 70%;
+    }
+
     .build-machine {
       display: flex;
       flex-wrap: wrap;
@@ -361,7 +365,8 @@ footer ul {
       padding: 0px 10px 0px 10px;
       width: 100%;
   }
-    .build-machine,
+  .project,  
+  .build-machine,
     .montaj,
     .choice-equvipment,
     .servis,
