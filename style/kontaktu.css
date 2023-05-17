@@ -452,7 +452,8 @@ ul .menu li {
 .adress-poit,
 .phone-nom,
 .email-link {
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
   .footer {
