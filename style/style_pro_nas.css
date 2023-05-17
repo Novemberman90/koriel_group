@@ -367,6 +367,10 @@ div .silpo,
         text-align: center;
     }
 
+    .occupation-li {
+        margin: 0px 0px 10px 0px;
+    }
+
     .footer {
         padding: 20px;
     } 
@@ -441,6 +445,7 @@ div .silpo,
     .occupation-li {
         font-size: 14px;
         line-height: 2em;
+        margin: 0px 0px 10px 0px;
     }
 
     .text-title-h3{
