@@ -371,6 +371,14 @@ div .silpo,
         padding: 20px;
     } 
 
+    .wiget-text {
+        gap: 20px;
+    }
+
+    .wiget-text-p {
+        font-size: 14px;
+    }
+
     .kontaktu-li {
         margin-bottom: 10px;
     }
@@ -392,6 +400,7 @@ div .silpo,
 
     .brend_h4 {
         font-size: 14px;
+        padding: 0px 15px 0px 15px;
     }
 
     .brend_h1 {
@@ -469,10 +478,11 @@ div .silpo,
     }
 
     .wiget-text{
-        margin: 0px 0px 20px 0px;
+        /*margin: 0px 0px 20px 0px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center;*/
+        display: none;
     }
 
     .wiget-text-p{
@@ -552,10 +562,11 @@ div .silpo,
     /*Menu poslug footer*/
    
     .wiget-text{
-        margin: 0px 0px 20px 0px;
+       /* margin: 0px 0px 20px 0px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center;*/
+        display: none;
     }
 
     .wiget-text-p{
