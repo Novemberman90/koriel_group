@@ -37,6 +37,10 @@ ul {
     background-color: white;
 }
 
+.dropdown-menu {
+    min-width: fit-content;
+}
+
 .main {
     margin: 0;
     padding: 0;
@@ -267,6 +271,7 @@ div .kontaktu-title::after {
 
   /*936px*/
   @media (max-width: 936px) {
+
 
     .title-background-img {
         padding: 0px 10px 0px 10px;
