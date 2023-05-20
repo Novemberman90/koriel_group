@@ -4,6 +4,10 @@
   border: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: #f7f7f7;
   box-sizing: border-box;
