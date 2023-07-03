@@ -86,8 +86,14 @@ ul {
   width: 150px;
   margin: 0 auto;
   flex-direction: column;
+  border-radius: 5px;
+  transition: all 0.3s;
 }
 
+.help-services:hover {
+  box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.07);
+  cursor: pointer;
+}
 
 
 
