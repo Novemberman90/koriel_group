@@ -71,7 +71,7 @@ ul {
 
 .posluhi-title-text h1 {
     text-align: center;
-    padding: 150px 0px 150px 0px;
+    padding: 50px 0px 50px 0px;
 }
 
 .poslugi-blok {
@@ -85,20 +85,17 @@ ul {
 .help-services {
   width: 150px;
   margin: 0 auto;
-  display: flex;
   flex-direction: column;
 }
 
 
-.help-services img {
-  width: 130px;
-}
+
 
 .link-servis {
   text-decoration: none;
   color:black;
   font-size: 13px;
-    width: 130px;
+    width: 150px;
     text-align: center;
     transition: all ease-in-out 0.1ms;
 }
@@ -111,6 +108,7 @@ ul {
   font-size: 13px;
     width: 130px;
     text-align: center;
+    margin: 0 auto;
     transition: all ease-in-out 0.2s;
 }
 
@@ -315,6 +313,10 @@ footer ul {
     .title-background-img {
         padding: 0px 10px 0px 10px;
         width: 100%;
+    }
+
+    .col-sm-3 {
+      width: 50% !important;
     }
      /*
     .col-poslugi,
