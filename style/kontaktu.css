@@ -263,7 +263,7 @@ textarea.form-control {
 
 .footer {
   background-color: #b7cef7;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .footer ul {
@@ -279,6 +279,7 @@ textarea.form-control {
 
 .kontaktu-block {
   margin-top: 50px;
+  padding: 0px 20px;
 }
 
 .kontaktu ul {
@@ -382,9 +383,9 @@ ul .menu li {
  /*936px*/
  @media (max-width: 936px) {
   
-  .footer {
+ /* .footer {
       padding: 20px;
-  } 
+  } */ 
 
   .kontaktu-li {
       margin-bottom: 10px;
@@ -414,10 +415,6 @@ ul .menu li {
 /*812px*/
 
 @media (max-width: 812px) {
-
-  .footer {
-      padding: 20px;
-  } 
 
   .wiget-text {
       gap: 20px;
@@ -456,13 +453,13 @@ ul .menu li {
 .adress-poit,
 .phone-nom,
 .email-link {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
 }
 
-  .footer {
+  /*.footer {
       padding: 20px;
-  } 
+  } */
 
   .logo-footer {
       width: 130px;
