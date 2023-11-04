@@ -138,8 +138,8 @@ ul {
 
 footer {
     background-color: #b7cef7;
-    padding: 10px;
-}
+   /* padding: 10px; */
+} 
 
 footer ul {
     list-style: none;
@@ -154,6 +154,7 @@ footer ul {
 
  .kontaktu-block {
     margin-top: 50px;
+    padding: 0px 20px;
 }
 
 .kontaktu ul {
@@ -254,9 +255,9 @@ footer ul {
         padding: 0px 10px 0px 10px;
     }
 
-    .footer {
+    /*.footer {
         padding: 20px;
-    } 
+    } */
 
     .kontaktu-li {
         margin-bottom: 10px;
@@ -294,11 +295,11 @@ footer ul {
     /*.poslugi-h3 {
       
     font-size: 14px;
-    }*/
+    }
 
     .footer {
         padding: 20px;
-    } 
+    } */
 
     .wiget-text {
         gap: 20px;
@@ -363,11 +364,11 @@ footer ul {
     .servis,
     .avtomatic {
       margin: 20px 0px 20px 0px;
-    }*/
+    }
 
     .footer {
         padding: 20px;
-    } 
+    } */
 
     .logo-footer {
         width: 130px;
