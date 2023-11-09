@@ -251,7 +251,7 @@ div .silpo,
  .kontaktu-title {
     text-decoration: none;
     color: black;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
     position: relative;
     margin-bottom: 30px;
@@ -300,6 +300,20 @@ div .silpo,
     left: -1.5em;
     content: ">";
     color: transparent;
+  }
+
+    a.soc-item {
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px 0px 0px;
+  }
+
+  a.soc-item:hover {
+    filter: drop-shadow(#414141 3px 3px 10px);
+  }
+
+  .soc-logo {
+    font-size: 18px;
   }
 
   /*936px*/
@@ -372,6 +386,10 @@ div .silpo,
         padding: 20px;
     } 
 */
+    .kontaktu-title {
+        font-weight: 500;
+    }
+
     .kontaktu-li {
         margin-bottom: 10px;
     }
@@ -433,6 +451,10 @@ div .silpo,
         padding: 20px;
     } 
 */
+    .kontaktu-title {
+        font-size: 24px;
+    }
+
     .kontaktu-li {
         margin-bottom: 10px;
     }
@@ -513,12 +535,18 @@ div .silpo,
     } 
 */
     .kontaktu-title  {
-        font-size: 28px;
+        font-size: 18px;
         font-weight: 400;
     }
 
     .kontaktu-li {
+        font-size: 13px;
         margin-bottom: 10px;
+    }
+
+
+    a.soc-item {
+        margin: 0px 10px 0px 0px;
     }
   }
 
@@ -548,7 +576,31 @@ div .silpo,
     small {
         font-size: 10px;
     }
+    .kontaktu-block {
+        margin-top: 20px;
+    }
+    .kontaktu-title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
 
+     .kontaktu,
+    .social-network {
+        padding: 0px 5px;
+    }
+
+    .kontaktu-li {
+        font-size: 12px;
+    }
+    .home-location {
+        letter-spacing: 0.5px;
+    }
+    a.soc-item {
+        margin: 0px 5px 0px 0px;
+    }
+    .soc-logo {
+        font-size: 16px;
+    }
   }
 
 /*media 320px*/
@@ -595,8 +647,12 @@ div .silpo,
         letter-spacing: 0.5px
     }
 
-    div .kontaktu-title {
-        font-size: 28px;
+    .kontaktu,
+    .social-network {
+        padding: 0px 5px;
+    }
+    .kontaktu-title {
+        font-size: 15px;
         font-weight: 400;
     }
 }
