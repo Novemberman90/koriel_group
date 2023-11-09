@@ -580,15 +580,15 @@ div .silpo,
         margin-top: 20px;
     }
     .kontaktu-title {
-        font-size: 16px;
+        font-size: 15px;
         margin-bottom: 15px;
     }
-
+     /*
      .kontaktu,
     .social-network {
         padding: 0px 5px;
     }
-
+    */
     .kontaktu-li {
         font-size: 12px;
     }
@@ -646,10 +646,15 @@ div .silpo,
         font-weight: 600;
         letter-spacing: 0.5px
     }
-
+    
     .kontaktu,
     .social-network {
-        padding: 0px 5px;
+        padding: 0;
+    }
+    .social-network {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .kontaktu-title {
         font-size: 15px;
