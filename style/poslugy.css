@@ -433,6 +433,25 @@ footer ul {
 }
   }
 
+  @media (max-width: 400px){
+     .kontaktu-block {
+        margin-top: 20px;
+    }
+    .kontaktu-title {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .kontaktu-li {
+        font-size: 12px;
+    }
+    a.soc-item {
+        margin: 0px 5px 0px 0px;
+    }
+    .soc-logo {
+        font-size: 16px;
+    }
+  }
 
   /*media 320px*/
 
