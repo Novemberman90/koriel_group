@@ -165,7 +165,7 @@ footer ul {
  .kontaktu-title {
     text-decoration: none;
     color: black;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 600;
     position: relative;
     margin-bottom: 30px;
@@ -410,12 +410,16 @@ footer ul {
     }
     /*Kontaktu*/
     .kontaktu-block {
-        margin: 0;
-    }
+      margin-top: 30px;
+  }
 
     .kontaktu {
         width: 100%;
     }
+    .kontaktu-title {
+      font-size: 18px;
+      font-weight: 400;
+  }
 
     .kontaktu-li {
       font-size: 14px;
@@ -430,6 +434,9 @@ footer ul {
   }
   .logo-footer-box {
     display: none;
+}
+a.soc-item {
+  margin: 0px 10px 0px 0px;
 }
   }
 
@@ -472,13 +479,12 @@ footer ul {
     }
 */
   /*Kontaktu*/
-  .kontaktu-block {
-      margin: 0;
-  }
 
-  .kontaktu {
-      width: 100%;
-  }
+  .kontaktu,
+  .social-network {
+    padding: 0px 5px;
+    width: 100%;
+}
   .home-location {
     letter-spacing: 0.1em;
 }
@@ -503,4 +509,7 @@ footer ul {
   .menu-title-h3 {
       font-size: 16px;
   }
+  .home-location {
+    letter-spacing: 0.1px;
+}
 }
