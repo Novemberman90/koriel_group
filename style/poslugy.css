@@ -444,6 +444,10 @@ a.soc-item {
      .kontaktu-block {
         margin-top: 20px;
     }
+    .kontaktu,
+    .social-network {
+      padding: 0px 5px;
+  }
     .kontaktu-title {
         font-size: 15px;
         margin-bottom: 15px;
@@ -458,12 +462,23 @@ a.soc-item {
     .soc-logo {
         font-size: 16px;
     }
+    .home-location {
+      letter-spacing: 0.1px;
+  }
   }
 
   /*media 320px*/
 
 @media (max-width: 320px) {
+
+  .help-services {
+    width: 100%;
+  }
     
+  .hepl-p {
+    font-size: 12px;
+    width: 100%;
+  }
   .title-background-img {
       padding: 0px 10px 0px 10px;
       width: 100%;
