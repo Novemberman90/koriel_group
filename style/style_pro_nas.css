@@ -564,6 +564,11 @@ div .silpo,
     .kontaktu-block {
         margin-top: 20px;
     }
+    .kontaktu,
+    .social-network {
+      padding: 0px 5px;
+      width: 100%;
+  }
     .kontaktu-title {
         font-size: 15px;
         margin-bottom: 15px;
@@ -578,6 +583,9 @@ div .silpo,
     }
     .soc-logo {
         font-size: 16px;
+    }
+    .home-location {
+        letter-spacing: 0.1px;
     }
  }
 
