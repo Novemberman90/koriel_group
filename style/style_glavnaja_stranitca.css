@@ -254,7 +254,7 @@ div .silpo,
  .kontaktu-title {
     text-decoration: none;
     color: black;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     position: relative;
     margin-bottom: 30px;
@@ -538,6 +538,10 @@ div .silpo,
         padding: 20px;
     } 
 */
+
+.kontaktu-block {
+    margin-top: 30px;
+}
     .kontaktu-title  {
         font-size: 18px;
         font-weight: 400;
