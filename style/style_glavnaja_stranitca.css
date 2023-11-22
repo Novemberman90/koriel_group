@@ -614,6 +614,9 @@ div .silpo,
     .soc-logo {
         font-size: 16px;
     }
+    .home-location {
+        letter-spacing: 0.1px;
+    }
   }
 
 /*media 320px*/
