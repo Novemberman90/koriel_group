@@ -133,7 +133,7 @@ div .silpo,
 .kontaktu-title {
     text-decoration: none;
     color: black;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 600;
     position: relative;
     margin-bottom: 30px;
@@ -259,12 +259,6 @@ div .silpo,
     }
 
     /*Menu poslug footer*/
-    .logo-footer {
-        width: 150px;
-        height: auto;
-        margin-bottom: 20px;
-    }
-
     .wiget-text {
         display: flex;
     justify-content: space-between;
@@ -427,23 +421,54 @@ div .silpo,
     }
     /*Kontaktu*/
     .kontaktu-block {
-        margin: 0;
+        margin-top: 30px;
     }
 
     .kontaktu {
         width: 100%;
     }
 
+    .kontaktu-title {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
     .kontaktu-li {
-        margin-bottom: 10px;
-        font-size: 15px;
+      font-size: 14px;
+      margin-bottom: 10px;
     }
 
     .menu-item-a {
         font-size: 14px;
     }
+    .home-location {
+      letter-spacing: 0.5px;
+  }
+  .logo-footer-box {
+    display: none;
+}
   }
 
+   /*400px*/
+  @media (max-width: 400px){
+    .kontaktu-block {
+       margin-top: 20px;
+   }
+   .kontaktu-title {
+       font-size: 15px;
+       margin-bottom: 15px;
+   }
+
+   .kontaktu-li {
+       font-size: 12px;
+   }
+   a.soc-item {
+       margin: 0px 5px 0px 0px;
+   }
+   .soc-logo {
+       font-size: 16px;
+   }
+ }
 
   /*media 320px*/
 
@@ -486,13 +511,11 @@ div .silpo,
     }
 
     /*Kontaktu*/
-    .kontaktu-block {
-        margin: 0;
-    }
-
-    .kontaktu {
-        width: 100%;
-    }
+    .kontaktu,
+    .social-network {
+      padding: 0px 5px;
+      width: 100%;
+  }
 
     /*Menu poslug footer*/
    
@@ -514,5 +537,8 @@ div .silpo,
     .menu-title-h3,
     .menu-title-h3 {
         font-size: 16px;
+    }
+    .home-location {
+        letter-spacing: 0.1px;
     }
 }
