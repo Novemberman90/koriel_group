@@ -289,7 +289,7 @@ textarea.form-control {
 .kontaktu-title {
   text-decoration: none;
   color: black;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 600;
   position: relative;
   margin-bottom: 30px;
@@ -335,6 +335,18 @@ textarea.form-control {
   left: -1.5em;
   content: ">";
   color: transparent;
+}
+a.soc-item {
+  text-decoration: none;
+  color: black;
+  margin: 0px 20px 0px 0px;
+}
+a.soc-item:hover {
+  filter: drop-shadow(#414141 3px 3px 10px);
+}
+
+.soc-logo {
+  font-size: 18px;
 }
 
 /*Menu poslug footer*/
@@ -386,18 +398,16 @@ ul .menu li {
  /* .footer {
       padding: 20px;
   } */ 
+  .kontaktu-title {
+    font-weight: 400;
+    font-size: 24px;
+}
 
   .kontaktu-li {
       margin-bottom: 10px;
   }
 
   /*Menu poslug footer*/
-  .logo-footer {
-      width: 150px;
-      height: auto;
-      margin-bottom: 20px;
-  }
-
   .wiget-text {
       display: flex;
   justify-content: space-between;
@@ -482,22 +492,57 @@ ul .menu li {
   }
   /*Kontaktu*/
   .kontaktu-block {
-      margin: 0;
-  }
-
-  .kontaktu {
-      width: 100%;
-  }
-
-  .kontaktu-li {
-      margin-bottom: 10px;
-      font-size: 15px;
-  }
-
-  .menu-item-a {
-      font-size: 14px;
-  }
+    margin-top: 30px;
 }
+
+.kontaktu {
+    width: 100%;
+}
+
+.kontaktu-title {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.kontaktu-li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.menu-item-a {
+    font-size: 14px;
+}
+.home-location {
+  letter-spacing: 0.5px;
+}
+.logo-footer-box {
+display: none;
+}
+}
+
+   /*400px*/
+   @media (max-width: 400px){
+    .kontaktu-block {
+       margin-top: 20px;
+   }
+   .kontaktu, .social-network {
+    padding: 0px 5px;
+}
+   .kontaktu-title {
+       font-size: 15px;
+       margin-bottom: 15px;
+   }
+
+   .kontaktu-li {
+       font-size: 12px;
+   }
+   a.soc-item {
+       margin: 0px 5px 0px 0px;
+   }
+   .soc-logo {
+       font-size: 16px;
+   }
+ }
 
  /*media 320px*/
 
@@ -509,11 +554,10 @@ ul .menu li {
   }
 
   /*Kontaktu*/
-  .kontaktu-block {
-      margin: 0;
-  }
 
-  .kontaktu {
+  .kontaktu,
+    .social-network {
+      padding: 0px 5px;
       width: 100%;
   }
 
@@ -538,4 +582,7 @@ ul .menu li {
   .menu-title-h3 {
       font-size: 16px;
   }
+  .home-location {
+    letter-spacing: 0.1px;
+}
 }
